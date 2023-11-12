@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: black;
+	width: 100vw;
+}
+
+/*------------------------------------- HEADER ----------------------------------------------*/
+header {
+	height: 10vh;
+	min-width: 99vw;
+}
+nav {
+	font-family: "Indie Flower", cursive;
+}
+.logo {
+	width: 75px;
+	height: 75px;
+}
+.icon {
+	width: 50px;
+}
+/*------------------------------------- MAIN ----------------------------------------------*/
+main {
+	width: 100%;
+	height: 90vh;
+	overflow-y: hidden;
+	scroll-snap-type: y mandatory;
+}
+section {
+	width: 100%;
+
+	height: 90vh;
+	scroll-snap-align: start;
+}
+h1 {
+	font-size: 5rem;
+	font-family: "Alumni Sans Inline One", sans-serif;
+}
+h3,
+h4 {
+	font-family: "Indie Flower", cursive;
+}
+h2 {
+	font-size: 4rem;
+	font-family: "Alumni Sans Inline One", sans-serif;
+}
+h3 {
+	font-size: 2.5rem;
+}
+h4 {
+	font-size: 1.7rem;
+}
+h5 {
+	font-size: 1.2rem;
+}
+/*------------------------------------- MAIN SECTION ---------------------------------------*/
+
+.contact-btn {
+	font-family: "Indie Flower", cursive;
+}
+.contact-btn-text {
+	color: white;
+}
+/*------------------------------------- ABOUT SECTION ---------------------------------------*/
+
+.about-header {
+	height: 17vh;
+	width: 50vw;
+}
+
+.about-skills {
+	color: #fff;
+}
+.about-summary {
+	height: 5vh;
+}
+
+.skills-items {
+	width: 60%;
+	height: 4vh;
+}
+#contact-formControl-input {
+	border: 1px solid black;
+	border-radius: 0%;
+	width: 40%;
+}
+#contact-formControl-input:focus {
+	border: 1px solid black;
+	outline: none;
+	box-shadow: none;
+
+}
+#contact-formControl-textarea {
+	box-shadow: none;
+	border: 1px solid black;
+	width: 70%;
+}
+#contact-formControl-textarea::placeholder {
+	text-align: center;
+	font-size: larger;
+}
+#contact-formControl-textarea:focus {
+	box-shadow: none;
+	border: 1px solid black;
+}
+
+#first-name-formControl-input,
+#last-name-formControl-input {
+	width: 250px;
+	height: 45px;
+	border: 1px solid black;
+}
+#first-name-formControl-input::placeholder,
+#last-name-formControl-input::placeholder {
+	border: none;
+	outline: none;
+	text-align: center;
+	text-transform: capitalize;
+}
+#first-name-formControl-input:focus,
+#last-name-formControl-input:focus {
+	border: 1px solid black;
+	outline: none;
+	box-shadow: none;
+}
+/*------------------------------------- FOOTER --------------------------------------------*/
+
+.skills-container-text {
+	color: #f0f8ff;
+}
+#send-btn{
+	border: 1px solid black;
+	border-radius: 0%;
+}
+#send-btn:focus{
+	border: 1px solid black;
+}
+/*------------------------------------- DARK MODE -----------------------------------------*/
+
+.body-dark-mode {
+	background: #dbd7d2;
+}
+.contact-btn-text-dark-mode {
+	color: black;
+}
+
+.about-skills-dark-mode {
+	color: #000;
+}
